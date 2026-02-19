@@ -1,0 +1,17 @@
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# Database configuration files
+config.properties
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific folders
+.idea/
+.vscode/
+bin/
