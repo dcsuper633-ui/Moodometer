@@ -10,10 +10,3 @@ An intelligent Java application designed to analyze user emotional states throug
 - **Secure Database Interaction:** Uses **PreparedStatement** to ensure data integrity and prevent SQL injection.
 - **Relational Design:** Structured MySQL schema with automatic timestamping for historical trend analysis.
 
-### 📖 Setup Instructions
-1. **Database:** Create a MySQL database named `mood_db`.
-2. **Driver:** Ensure the `mysql-connector-j` dependency is included in your project classpath.
-3. **Configuration:** Update the `DB_USER` and `DB_PASS` fields in `MoodometerPro.java`.
-4. **Execution:** ```bash
-   javac MoodometerPro.java
-   java MoodometerPro
